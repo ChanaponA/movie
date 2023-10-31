@@ -1,0 +1,26 @@
+//your student id, firstname, and lastname here
+//65130500015, Chanapon, Auafaur
+
+class Movies {
+  constructor(title, director, year, genre,) {
+    this.title = title;
+    this.director = director;
+    this.year = year;
+    this.genre = genre;
+  }
+}
+
+const movies = [];
+const addMovie = (title, director, year, genre) => {
+  return movies.push(new Movies(title, director, year, genre));
+}
+const getAllMovies = () => {
+  return movies
+}
+const deleteMovieByTitle = (title) => {
+  return delete movies.this.title
+}
+
+
+module.exports = Movies
+
